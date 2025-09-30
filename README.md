@@ -14,4 +14,10 @@ This repository documents my progress through Modules 1 and 2 of the Langsmith c
  ### LESSON 2: Types Of Runs
  - **Learned:** Learned to correctly classify traces using the run_type parameter (llm, retriever) which enables special rendering in Langsmith. Also learned how to implement the reduce_fn for streaming outputs.
  - **Tweak:** Implemented all missing run_type and reduce_fn arguments, modified the LLM input to a coffee order, and customized the Retriever document content/metadata to create a unique example.
- - **Source File:** [lesson2_TypesOfRuns.ipynb](lesson2_TypesOfRuns.ipynb) 
+ - **Source File:** [lesson2_TypesOfRuns.ipynb](lesson2_TypesOfRuns.ipynb)
+
+   ### Lesson 3: Alternative Ways To Trace
+ - **learned:** Learned to use the with trace() context manager for explicit control over trace inputs/outputs and learned that for LangChain-compatible providers (like Groq), setting environment variables enables       automatic tracing across all LLM calls (the wrap_openai equivalent).
+ - **Tweak:** Removed the decorator from generate_response and implemented a custom with trace() block, adding the unique tag manual-context-manager to the trace, demonstrating precise manual control.
+ - **Source File** [lesson3_AlterWaysToTrace.ipynb](lesson3_AlterWaysToTrace.ipynb) 
+
