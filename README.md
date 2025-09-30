@@ -13,5 +13,5 @@ This repository documents my progress through Modules 1 and 2 of the Langsmith c
 
  ### LESSON 2: Types Of Runs
  - **Learned:** Learned to correctly classify traces using the run_type parameter (llm, retriever) which enables special rendering in Langsmith. Also learned how to implement the reduce_fn for streaming outputs.
- -**Tweak:** Implemented all missing run_type and reduce_fn arguments, modified the LLM input to a coffee order, and customized the Retriever document content/metadata to create a unique example.
- -**Source File:** [lesson2_TypesOfRuns.ipynb](lesson2_TypesOfRuns.ipynb) 
+ - **Tweak:** Implemented all missing run_type and reduce_fn arguments, modified the LLM input to a coffee order, and customized the Retriever document content/metadata to create a unique example.
+ - **Source File:** [lesson2_TypesOfRuns.ipynb](lesson2_TypesOfRuns.ipynb) 
