@@ -32,5 +32,5 @@ This repository documents my progress through Modules 1 and 2 of the Langsmith c
  ### LESSON 1: Datasets
  - **Learned:** Learned how to programmatically manage Langsmith Datasets using the langsmith.Client to perform a test-driven workflow. Specifically, utilized the client.create_dataset() method to initialize a new dataset and client.create_examples() for bulk uploading input/reference output pairs.
  - **Tweak:** The core tweak was to abandon the pre-existing dataset ID and use the SDK's client.create_dataset() method to programmatically create a new dataset with a unique name using uuid.uuid4(). This ensured the entire dataset creation and example upload process could be run end-to-end within the notebook.
- - **Source File:** [M2L1_Datasets.ipynb](M2L11_Datasets.ipynb)
+ - **Source File:** [M2L1_Datasets.ipynb](M2L1_Datasets.ipynb)
 
