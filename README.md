@@ -8,5 +8,5 @@ This repository documents my progress through Modules 1 and 2 of the Langsmith c
 
 ### Lesson 1: Tracing Basics with @traceable
 - **Learned:** How to utilize the `@traceable` decorator to easily trace standard Python functions, automatically creating a nested run structure visible in the Langsmith UI. This enables easy debugging and observability of custom components outside of standard LangChain Expression Language (LCEL).
-- **Tweak:** Added **custom `name` and `metadata`** arguments to the `@traceable` decorators for the `retrieve_documents` and `generate_response` functions to enrich the trace data with context (e.g., retriever type and model name).
+- **Tweak**: Implementing @traceable and adding custom name and descriptive metadata arguments to the decorators.
 - **Source File:** [lesson1_tracing.ipynb](lesson1_tracing.ipynb) 
