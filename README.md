@@ -44,3 +44,8 @@ This repository documents my progress through Modules 1 and 2 of the Langsmith c
  - **Tweak:** 1. Robust Dataset Fetching: Implemented logic to dynamically retrieve the name of the most recently created dataset using client.list_datasets() for stability. 2. Custom Constraint Evaluator: Created a new evaluator, is_three_sentences, to enforce the RAG system prompt's "three sentences maximum" rule, adding a layer of quality assurance to the experiment.
  - **Source File:** [M2L3_experiments.ipynb](M2L3_experiments.ipynb)
 
+ ### LESSON 2: Prompt Hub
+ - **Learned:** I learned how to use the client.push_prompt() function to programmatically version control custom ChatPromptTemplate objects. This process is essential for managing model personas and prompt iterations outside of the LangSmith UI.
+ - **Tweak:** I completely replaced the original "Pirate Friend" persona and flow** with a unique Advanced 2500 AI persona for execution.
+ - **Source File:** [prompt_hub.ipynb](prompt_hub.ipynb)
+
