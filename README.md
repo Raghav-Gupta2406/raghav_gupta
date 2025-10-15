@@ -1,7 +1,7 @@
 # Raghav-Gupta-Langsmith-496
 ## Langsmith Course Assignment - MAT496
 
-This repository documents my progress through Modules 1 and 2 of the Langsmith course, fulfilling the requirements for video-by-video commits, learning summaries, and unique code examples.
+This repository documents my progress through Modules 1, 2 and 3 of the Langsmith course, fulfilling the requirements for video-by-video commits, learning summaries, and unique code examples.
 
 
  ## MODULE 1
